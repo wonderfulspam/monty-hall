@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Monty Hall</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="monty-canvas">
+            <div id="card1" class="card card-initial" data-number="1">1</div>
+            <div id="card2" class="card card-initial" data-number="2">2</div>
+            <div id="card3" class="card card-initial" data-number="3">3</div>
+            <div id="help-text"><p>
+                Hej og velkommen til spillet. Vælg én af de tre døre.
+            </p></div>
+        </div>
+        <div id="previous-results">
+            <table>
+                <thead>
+                    <tr>
+                    <th></th>
+                    <th>Spil i alt</th>
+                    <th>Vundet</th>
+                    <th>Tabt</th>
+                    <th>Succesrate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Skiftet</td>
+                        <td id="total-changed"></td>
+                        <td id="changed-won"></td>
+                        <td id="changed-lost"></td>
+                        <td id="changed-percentage"></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Blevet</td>
+                        <td id="total-stayed"></td>
+                        <td id="stayed-won"></td>
+                        <td id="stayed-lost"></td>
+                        <td id="stayed-percentage"></td>
+                    </tr>
+                        <td>I alt</td>
+                        <td id="total-total"></td>
+                        <td id="total-won"></td>
+                        <td id="total-lost"></td>
+                        <td id="total-percentage"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.min.js"></script>
+</html>
