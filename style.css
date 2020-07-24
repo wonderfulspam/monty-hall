@@ -46,6 +46,10 @@ table {
 	box-shadow:#111 1px 1px 2px;
 }
 
+.toggle-button {
+    margin-top: 10px;
+}
+
 .clicked {
     box-shadow: red 8px 8px 16px;
 }
